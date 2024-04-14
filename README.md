@@ -1,16 +1,62 @@
-# weather_app
 
-A new Flutter project.
+# Lagos Weather App
+
+A simple Flutter single-page weather app that fetches weather forecasts for Lagos, Nigeria, using the OpenWeatherAPI.
+
+## Features
+
+- View current weather conditions in Lagos.
+- Get a 40-day weather forecast for Lagos.
+
+## Screenshot
+
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with this app, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone this repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/your-username/lagos_weather_app.git
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Navigate to the project directory:
+
+```bash
+cd weather_app
+```
+
+3. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Get your API key from [OpenWeatherAPI](https://openweathermap.org/api) by signing up for an account if you haven't already.
+
+5. Create a file named `secrets.dart` in the `lib` directory.
+
+6. Add your API key to `secrets.dart`:
+
+```dart
+const String openWeatherAPIKey = 'YOUR_API_KEY';
+```
+
+7. Run the app:
+
+```bash
+flutter run
+```
+
+## How to Use
+
+Simply launch the app, and it will automatically fetch the current weather conditions and the 5-day forecast for Lagos, Nigeria.
+
+## Dependencies
+
+This app uses the http dependency:
+
+- [http](https://pub.dev/packages/http) - For making HTTP requests to the OpenWeatherAPI.
+
