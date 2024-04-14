@@ -19,7 +19,7 @@ To get started with this app, follow these steps:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/lagos_weather_app.git
+git clone https://github.com/Deonorla/Weather-App.git
 ```
 
 2. Navigate to the project directory:
