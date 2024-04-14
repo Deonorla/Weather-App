@@ -6,10 +6,10 @@ A simple Flutter single-page weather app that fetches weather forecasts for Lago
 ## Features
 
 - View current weather conditions in Lagos.
-- Get a 40-day weather forecast for Lagos.
+- Get a 5-day weather forecast for Lagos.
 
 ## Screenshot
-
+<img width="1440" alt="Screenshot 2024-04-14 at 16 14 44" src="https://github.com/Deonorla/Weather-App/assets/91434033/c2fbd8f1-8a77-4b00-8190-ed320c8f2d65">
 
 
 ## Getting Started
